@@ -45,9 +45,7 @@ The objectives of this assignment are:
 # Project Structure
 
 ```
-CS509_2026CSM1014_2026CSM1031
-│
-└── assignment_01/
+ assignment_01/
     │
     ├── bfs/
     │   ├── bfs.cpp
@@ -87,7 +85,7 @@ CS509_2026CSM1014_2026CSM1031
     │
     ├── assignment.exe
     ├── README.md
-```
+    
 ```
 
 ---
