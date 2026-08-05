@@ -42,47 +42,52 @@ The objectives of this assignment are:
 # Project Structure
 
 ```
+# Project Structure
+
+```
 CS509_2026CSM1014_2026CSM1031
 │
-├── bfs/
-│   ├── bfs.cpp
-│   ├── bfs.h
-│   └── driver.cpp
-│
-├── dfs/
-│   ├── dfs.cpp
-│   ├── dfs.h
-│   └── driver.cpp
-│
-├── sssp/
-│   ├── sssp.cpp
-│   ├── sssp.h
-│   └── driver.cpp
-│
-├── common/
-│   ├── graph.cpp
-│   ├── graph.h
-│   ├── csr.cpp
-│   └── csr.h
-│
-├── wrapper/
-│   ├── main.cpp
-│   ├── menu.cpp
-│   └── menu.h
-│
-├── tests/
-│   ├── bfs/
-│   ├── dfs/
-│   └── sssp/
-│
-├── outputs/
-│
-├── tools/
-│   └── generate_tests.cpp
-│
-├── assignment.exe
-│
-└── README.md
+└── assignment_01/
+    │
+    ├── bfs/
+    │   ├── bfs.cpp
+    │   ├── bfs.h
+    │   └── driver.cpp
+    │
+    ├── dfs/
+    │   ├── dfs.cpp
+    │   ├── dfs.h
+    │   └── driver.cpp
+    │
+    ├── sssp/
+    │   ├── sssp.cpp
+    │   ├── sssp.h
+    │   └── driver.cpp
+    │
+    ├── common/
+    │   ├── graph.cpp
+    │   ├── graph.h
+    │   ├── csr.cpp
+    │   └── csr.h
+    │
+    ├── wrapper/
+    │   ├── main.cpp
+    │   ├── menu.cpp
+    │   └── menu.h
+    │
+    ├── tests/
+    │   ├── bfs/
+    │   ├── dfs/
+    │   └── sssp/
+    │
+    ├── outputs/
+    │
+    ├── tools/
+    │   └── generate_tests.cpp
+    │
+    ├── assignment.exe
+    ├── README.md
+```
 ```
 
 ---
