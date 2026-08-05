@@ -6,18 +6,16 @@
 
 using namespace std;
 
-// CSR Graph Structure
 struct CSRGraph
 {
     int vertices;
     int edges;
 
-    vector<int> rowPtr;     // Size = V + 1
-    vector<int> colIndex;   // Size = E
-    vector<int> values;     // Edge weights
+    vector<int> rowPtr;     
+    vector<int> colIndex;   
+    vector<int> values;     
 };
 
-// Convert Adjacency List -> CSR
 CSRGraph convertToCSR(const Graph &graph);
 
 #endif

@@ -44,10 +44,14 @@ Graph readGraph(const string &filename, bool weighted)
             graph.adjacencyList[vertex].push_back(Edge(neighbour, weight));
         }
     }
+   
     string temp;
-    int source;
 
-    fin >> temp >> source;
+    if (fin >> temp){
+        if (temp == "SOURCE"){
+            fin >> graph.source;
+        }
+    }
 
     fin.close();
 

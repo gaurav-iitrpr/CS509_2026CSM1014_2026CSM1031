@@ -20,6 +20,7 @@ struct Graph
 {
     int vertices;
     int edges;
+    int source; 
     bool weighted;
 
     vector<vector<Edge>> adjacencyList;
