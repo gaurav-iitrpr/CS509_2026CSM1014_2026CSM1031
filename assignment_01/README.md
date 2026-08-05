@@ -320,14 +320,13 @@ tests/sssp/generated_sssp.txt
 
 | Algorithm | Test File          | Execution Time (µs) |
 |-----------|------------------- |--------------------:|
-| BFS       | bfs_10.txt         | |
-| BFS       | generated_bfs.txt  | |
-| DFS       | dfs_10.txt         | |
-| DFS       | generated_dfs.txt  | |
-| SSSP      | sssp_10.txt        | |
-| SSSP      | generated_sssp.txt | |
+| BFS       | bfs_10.txt         |  799 microseconds   |
+| BFS       | generated_bfs.txt  |    0 microseconds   |
+| DFS       | dfs_10.txt         |    0 microseconds   |
+| DFS       | generated_dfs.txt  |    0 microseconds   |           |
+| SSSP      | sssp_10.txt        |    0 microseconds   |
+| SSSP      | generated_sssp.txt |    0 microseconds   |
 
-(Fill the execution time after running the program.)
 
 ---
 
@@ -347,9 +346,9 @@ Only the execution of the algorithm is measured. File reading and CSR conversion
 
 | Algorithm | Time Complexity  | Space Complexity |
 |-----------|------------------|------------------|
-| BFS       | O(V + E) | O(V)  |
-| DFS       | O(V + E) | O(V)  |
-| Dijkstra  | O((V + E) log V) | O(V + E) |
+| BFS       | O(V + E)         |            O(V)  |
+| DFS       | O(V + E)         |            O(V)  |
+| Dijkstra  | O((V + E) log V) |         O(V + E) |
 
 ---
 
