@@ -45,7 +45,12 @@ The objectives of this assignment are:
 # Project Structure
 
 ```
- assignment_01/
+  # Project Structure
+
+```
+CS509_2026CSM1014_2026CSM1031
+│
+└── assignment_01/
     │
     ├── bfs/
     │   ├── bfs.cpp
@@ -85,10 +90,8 @@ The objectives of this assignment are:
     │
     ├── assignment.exe
     ├── README.md
-    
+    └── Makefile
 ```
-
----
 
 # Modules
 
