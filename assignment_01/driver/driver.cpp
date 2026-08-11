@@ -1,30 +1,30 @@
-
 #include <iostream>
-#include "menu.h"
+#include "driver.h"
+#include "../wrapper/menu.h"
 
 using namespace std;
 
-int main()
+void runAssignment1()
 {
     int choice;
 
-    while (true)
+    do
     {
         cout << "\n=====================================\n";
-        cout << "      CS509 Assignment Menu\n";
+        cout << "        Assignment 1 Menu\n";
         cout << "=====================================\n";
         cout << "1. BFS\n";
         cout << "2. DFS\n";
         cout << "3. SSSP\n";
-        cout << "0. Exit\n";
+        cout << "0. Back\n";
         cout << "Enter Choice : ";
 
         cin >> choice;
 
-        switch (choice)
+        switch(choice)
         {
             case 1:
-                bfsMenu();
+                  bfsMenu();
                 break;
 
             case 2:
@@ -36,10 +36,11 @@ int main()
                 break;
 
             case 0:
-                return 0;
+                break;
 
             default:
-                cout << "\nInvalid Choice\n";
+                cout << "Invalid Choice!\n";
         }
-    }
+
+    } while(choice != 0);
 }

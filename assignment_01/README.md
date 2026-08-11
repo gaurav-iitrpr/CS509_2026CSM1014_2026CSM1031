@@ -270,7 +270,7 @@ Execution Time : 31 microseconds
 Compile the project using:
 
 ```bash
-g++ assignment_01/wrapper/main.cpp assignment_01/wrapper/menu.cpp assignment_01/bfs/bfs.cpp assignment_01/bfs/driver.cpp assignment_01/dfs/dfs.cpp assignment_01/dfs/driver.cpp assignment_01/sssp/sssp.cpp assignment_01/sssp/driver.cpp common/csr.cpp common/graph.cpp -o assignment.exe
+g++ assignment_01/driver/driver.cpp assignment_01/wrapper/menu.cpp assignment_01/bfs/bfs.cpp assignment_01/bfs/driver.cpp assignment_01/dfs/dfs.cpp assignment_01/dfs/driver.cpp assignment_01/sssp/sssp.cpp assignment_01/sssp/driver.cpp common/csr.cpp common/graph.cpp common_wrapper/wrapper.cpp -o assignment.exe
 ```
 
 ---
