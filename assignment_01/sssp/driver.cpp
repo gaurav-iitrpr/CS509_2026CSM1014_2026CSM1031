@@ -2,8 +2,8 @@
 #include <chrono>
 #include <climits>
 
-#include "../common/graph.h"
-#include "../common/csr.h"
+#include "../../common/graph.h"
+#include "../../common/csr.h"
 #include "sssp.h"
 
 using namespace std;

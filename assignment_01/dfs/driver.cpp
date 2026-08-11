@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
-#include "../common/graph.h"
-#include "../common/csr.h"
+#include "../../common/graph.h"
+#include "../../common/csr.h"
 #include "dfs.h"
 using namespace std;
 using namespace chrono;

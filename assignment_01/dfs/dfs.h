@@ -1,6 +1,6 @@
 #ifndef DFS_H
 #define DFS_H
-#include "../common/csr.h"
+#include "../../common/csr.h"
 #include <vector>
 #include <string>
 

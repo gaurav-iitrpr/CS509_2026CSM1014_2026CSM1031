@@ -9,20 +9,20 @@ void runSSSP(const string&);
 
 void runAllBFS()
 {
-    runBFS("tests/bfs/bfs_10.txt");
-    runBFS("tests/bfs/generated_bfs.txt");
+    runBFS("assignment_01/tests/bfs/bfs_10.txt");
+    runBFS("assignment_01/tests/bfs/generated_bfs.txt");
 }
 
 void runAllDFS()
 {
-    runDFS("tests/dfs/dfs_10.txt");
-    runDFS("tests/dfs/generated_dfs.txt");
+    runDFS("assignment_01/tests/dfs/dfs_10.txt");
+    runDFS("assignment_01/tests/dfs/generated_dfs.txt");
 }
 
 void runAllSSSP()
 {
-    runSSSP("tests/sssp/sssp_10.txt");
-    runSSSP("tests/sssp/generated_sssp.txt");
+    runSSSP("assignment_01/tests/sssp/sssp_10.txt");
+    runSSSP("assignment_01/tests/sssp/generated_sssp.txt");
 }
 
 void bfsMenu()
@@ -42,8 +42,8 @@ void bfsMenu()
 
         switch(choice)
         {
-            case 1: runBFS("tests/bfs/bfs_10.txt"); break;
-            case 2: runBFS("tests/bfs/generated_bfs.txt"); break;
+            case 1: runBFS("assignment_01/tests/bfs/bfs_10.txt"); break;
+            case 2: runBFS("assignment_01/tests/bfs/generated_bfs.txt"); break;
             case 3: runAllBFS(); break;
             case 0: return;
             default: cout<<"Invalid Choice\n";
@@ -69,10 +69,10 @@ void dfsMenu()
         switch (choice)
         {
             case 1:
-                runDFS("tests/dfs/dfs_10.txt");
+                runDFS("assignment_01/tests/dfs/dfs_10.txt");
                 break;
             case 2:
-                runDFS("tests/dfs/generated_dfs.txt");
+                runDFS("assignment_01/tests/dfs/generated_dfs.txt");
                 break;
 
             case 3:
@@ -106,11 +106,11 @@ void ssspMenu()
         switch (choice)
         {
             case 1:
-                runSSSP("tests/sssp/sssp_10.txt");
+                runSSSP("assignment_01/tests/sssp/sssp_10.txt");
                 break;
 
             case 2:
-                runSSSP("tests/sssp/generated_sssp.txt");
+                runSSSP("assignment_01/tests/sssp/generated_sssp.txt");
                 break;
 
             case 3:

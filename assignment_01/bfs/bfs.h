@@ -1,6 +1,6 @@
 #ifndef BFS_H
 #define BFS_H
-#include "../common/csr.h"
+#include "../../common/csr.h"
 #include <vector>
 using namespace std;
 

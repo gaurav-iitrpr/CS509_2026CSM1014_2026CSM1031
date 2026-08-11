@@ -1,7 +1,7 @@
 #ifndef SSSP_H
 #define SSSP_H
 
-#include "../common/csr.h"
+#include "../../common/csr.h"
 
 #include <vector>
 #include <string>
