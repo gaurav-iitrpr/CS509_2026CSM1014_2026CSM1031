@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-// Check whether edge u -> v exists
 bool edgeExists(const CSRGraph &graph, int u, int v)
 {
     for(int i = graph.rowPtr[u];
@@ -15,17 +13,15 @@ bool edgeExists(const CSRGraph &graph, int u, int v)
             return true;
         }
     }
-
-    return false;
+ return false;
 }
 
 
-// Count triangles
+
 int countTriangles(const CSRGraph &graph)
 {
-    int triangles = 0;
-
-    for(int u = 0; u < graph.vertices; u++)
+ int triangles = 0;
+ for(int u = 0; u < graph.vertices; u++)
     {
         for(int i = graph.rowPtr[u];
             i < graph.rowPtr[u + 1];
