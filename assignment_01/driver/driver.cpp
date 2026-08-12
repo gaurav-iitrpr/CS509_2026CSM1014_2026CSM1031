@@ -24,7 +24,7 @@ void runAssignment1()
         switch(choice)
         {
             case 1:
-                  bfsMenu();
+                bfsMenu();
                 break;
 
             case 2:
