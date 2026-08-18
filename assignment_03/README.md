@@ -1,5 +1,10 @@
 # CS509 - Assignment 3
 
+**Language:** C++  
+**Compiler:** g++ (MinGW) 
+
+---
+
 ## Buddy Task: Gradient Descent and Maxflow-Mincut
 
 This assignment implements two algorithms as a Buddy Task:
@@ -172,7 +177,7 @@ The minimum-cut capacity must be equal to the maximum-flow value.
 
 | File | Vertices | Edges |
 |---|---:|---:|
-| `maxflow_10.txt` | 6* | 10 |
+| `maxflow_10.txt` | 10 | 30 |
 | `maxflow_100.txt` | 100 | 300 |
 | `maxflow_1000.txt` | 1,000 | 3,000 |
 | `maxflow_10000.txt` | 10,000 | 30,000 |
@@ -307,7 +312,6 @@ This generates the larger required test files in:
 assignment_03/tests/maxflow_mincut/
 ```
 
-The `maxflow_10.txt` sample is kept separately and is not overwritten by the generator.
 
 ---
 
@@ -331,29 +335,19 @@ For very fast inputs, repeated runs may be used and the average execution time m
 
 ---
 
-## 10. Maxflow-Mincut Results
 
-| File | Vertices | Edges | Source | Sink | Expected Flow | Actual Flow | Cut Capacity | Time | Status |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| `maxflow_10.txt` | 6 | 10 | 0 | 5 | 23 | 23 | 23 | **Fill final time** | Pass |
-| `maxflow_100.txt` | 100 | 300 | 0 | 99 | — | — | — | — | — |
-| `maxflow_1000.txt` | 1,000 | 3,000 | 0 | 999 | — | — | — | — | — |
-| `maxflow_10000.txt` | 10,000 | 30,000 | 0 | 9,999 | — | — | — | — | — |
-| `maxflow_50000.txt` | 50,000 | 150,000 | 0 | 49,999 | — | — | — | — | — |
-
-For generated graphs, the expected flow is not hard-coded in this README. It should be recorded from a correctness check and verified against the minimum-cut capacity.
 
 ---
 
 ## 11. Maxflow-Mincut Execution-Time Table
 
-| File | Vertices | Edges | Execution Time (µs) | Execution Time (ms) | Maxflow = Mincut? | Status |
-|---|---:|---:|---:|---:|---|---|
-| `maxflow_10.txt` | 6 | 10 | ______ | ______ | Yes | Pass |
-| `maxflow_100.txt` | 100 | 300 | ______ | ______ | ______ | ______ |
-| `maxflow_1000.txt` | 1,000 | 3,000 | ______ | ______ | ______ | ______ |
-| `maxflow_10000.txt` | 10,000 | 30,000 | ______ | ______ | ______ | ______ |
-| `maxflow_50000.txt` | 50,000 | 150,000 | ______ | ______ | ______ | ______ |
+| File | Vertices | Edges | Execution Time (ms) | Maxflow = Mincut? | Status |
+|---|---:|---:|---:|---|---|
+| `maxflow_10.txt` | 10 | 30 | 996 | Yes | Pass |
+| `maxflow_100.txt` | 100 | 300 | 1116 | Yes |Pass|
+| `maxflow_1000.txt` | 1,000 | 3,000 | 2011 | Yes | Pass |
+| `maxflow_10000.txt` | 10,000 | 30,000 | 53502 | Yes | Pass|
+| `maxflow_50000.txt` | 50,000 | 150,000 | 392465 | Yes | Pass |
 
 ---
 
