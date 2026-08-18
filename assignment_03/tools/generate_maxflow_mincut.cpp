@@ -121,17 +121,6 @@ void generateGraph(
         return;
     }
 
-
-    /*
-        Format:
-
-        V E
-        u degree neighbour capacity ...
-        ...
-        SOURCE 0
-        SINK V-1
-    */
-
     fout << vertices
          << " "
          << edges
