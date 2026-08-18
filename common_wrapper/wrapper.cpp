@@ -16,8 +16,8 @@ void showMenu()
         cout << "       CS509 Assignment Menu\n";
         cout << "=====================================\n";
         cout << "1. Assignment 1\n";
-         cout << "2. Assignment 2\n";
-     
+        cout << "1. Assignment 2\n";
+        cout << "1. Assignment 3\n";
         cout << "0. Exit\n";
         cout << "Enter Choice : ";
 
@@ -30,10 +30,13 @@ void showMenu()
                 break;
 
             
-             case 2:
+            case 2:
                 runAssignment2();
                 break;
-                
+
+            case 3:
+                runAssignment3();
+                break;
 
             case 0:
                 cout << "Exiting...\n";
