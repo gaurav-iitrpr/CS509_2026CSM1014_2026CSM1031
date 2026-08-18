@@ -1,8 +1,5 @@
 # CS509 - Assignment 3
 
-**Language:** C++  
-**Compiler:** g++ (MinGW)  
-
 ## Buddy Task: Gradient Descent and Maxflow-Mincut
 
 This assignment implements two algorithms as a Buddy Task:
@@ -316,18 +313,19 @@ The `maxflow_10.txt` sample is kept separately and is not overwritten by the gen
 
 ## 8. Correctness Results
 
+---
 
 ## 9. Gradient Descent Execution-Time Table
 
 Use the following table for the final performance measurements.
 
-| File        | Degree | Iterations | Execution Time (µs) | Status |
-|------------:|---:|---------:|---------------:     |---                       |        |
-| `gd_01.txt` | 2 | 70       | 0                        |   pass |
-| `gd_02.txt` | 4 | 180      | 0                        |   pass |
-| `gd_03.txt` | 6 | 349      | 0                        |   pass |
-| `gd_04.txt` | 8 | 948      | 0                        |   pass |
-| `gd_05.txt` | 10|2364      | 1019                     |   pass |
+| File | Degree | Iterations | Execution Time (µs) | Status |
+|---|---:|---:|---:|---|
+| `gd_01.txt` | 2 | 70 | 0 | Pass |
+| `gd_03.txt` | 6 | 349 | 0 | Pass |
+| `gd_02.txt` | 4 | 180 | 0 | Pass |
+| `gd_04.txt` | 8 | 948 | 0 | Pass |
+| `gd_05.txt` | 10 | 2364 | 1036 | Pass |
 
 For very fast inputs, repeated runs may be used and the average execution time may be reported, provided the number of runs is documented.
 
