@@ -292,14 +292,7 @@ FlowResult maxFlowMinCut(
     Dinic dinic(vertices);
 
 
-    /*
-       CSR -> residual network.
-
-       This is inside the algorithm
-       function because the assignment
-       considers residual initialization
-       part of Maxflow execution.
-    */
+    
 
     for (int u = 0;
          u < vertices;
@@ -365,11 +358,7 @@ FlowResult maxFlowMinCut(
     }
 
 
-    /*
-       Original edges crossing
-       from source side to sink side
-       form the minimum cut.
-    */
+   
 
     for (int u = 0;
          u < vertices;
@@ -434,10 +423,6 @@ int readSink(
 
     fin >> vertices >> edges;
 
-
-    /*
-       Skip adjacency-list lines.
-    */
 
     for (int i = 0;
          i < vertices;
@@ -527,10 +512,6 @@ void runMaxFlowMinCut(
     }
 
 
-    /*
-       Maxflow capacities must not be negative.
-    */
-
     for (int u = 0;
          u < graph.vertices;
          u++)
@@ -548,12 +529,6 @@ void runMaxFlowMinCut(
         }
     }
 
-
-    /*
-       CSR conversion is preprocessing.
-
-       DO NOT include it in the timer.
-    */
 
     CSRGraph csrGraph =
         convertToCSR(graph);

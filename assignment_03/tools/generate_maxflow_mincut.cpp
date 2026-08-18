@@ -172,6 +172,11 @@ void generateGraph(
 
 int main()
 {
+     generateGraph(
+        10,
+        30,
+        "assignment_03/tests/maxflow_mincut/maxflow_10.txt"
+    );
     
     generateGraph(
         100,
