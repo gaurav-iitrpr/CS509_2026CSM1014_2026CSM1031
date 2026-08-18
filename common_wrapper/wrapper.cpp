@@ -1,6 +1,7 @@
 #include <iostream>
 #include "../assignment_01/driver/driver.h"
 #include "../assignment_02/driver/driver.h"
+#include "../assignment_03/driver/driver.h"
 
 
 using namespace std;
@@ -15,7 +16,8 @@ void showMenu()
         cout << "       CS509 Assignment Menu\n";
         cout << "=====================================\n";
         cout << "1. Assignment 1\n";
-         cout << "1. Assignment 2\n";
+         cout << "2. Assignment 2\n";
+     
         cout << "0. Exit\n";
         cout << "Enter Choice : ";
 
@@ -31,6 +33,7 @@ void showMenu()
              case 2:
                 runAssignment2();
                 break;
+                
 
             case 0:
                 cout << "Exiting...\n";
