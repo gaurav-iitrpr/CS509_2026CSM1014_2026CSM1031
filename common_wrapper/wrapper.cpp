@@ -2,6 +2,7 @@
 #include "../assignment_01/driver/driver.h"
 #include "../assignment_02/driver/driver.h"
 #include "../assignment_03/driver/driver.h"
+#include "../assignment_04/driver/driver.h"
 
 
 using namespace std;
@@ -18,6 +19,7 @@ void showMenu()
         cout << "1. Assignment 1\n";
         cout << "1. Assignment 2\n";
         cout << "1. Assignment 3\n";
+        cout << "4. Assignment 4\n";
         cout << "0. Exit\n";
         cout << "Enter Choice : ";
 
@@ -36,6 +38,9 @@ void showMenu()
 
             case 3:
                 runAssignment3();
+                break;
+                case 4:
+                runAssignment4();
                 break;
 
             case 0:
